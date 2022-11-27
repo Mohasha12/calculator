@@ -1,0 +1,90 @@
+body{
+    background-color: black;
+    font-family: sans-serif;
+}
+#calculator{
+    padding: 10px;
+    margin-top: 10%;
+    margin-left: 40%;
+    border: 2px solid blue;
+    border-radius: 5%;
+    display: grid;
+    width: 260px;
+    background-color: rgb(43, 207, 222);
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-rows: 70px 70px 70px 70px 70px 70px ;
+    row-gap: 20px;
+    column-gap: 20px;
+    grid-template-areas: "display display display display"
+                         "clear clear del divi"
+                         " one two three mul"
+                         "four five six minus"
+                         "seven eight nine plus"
+                         "dot zeroo equal equal";
+}
+#display{
+    grid-area: display;
+    border-radius: 5%;
+}
+#one{
+    grid-area: one;
+}
+#two{
+    grid-area: two;
+}
+#three{
+    grid-area: three;
+}
+#four{
+    grid-area: four;
+}
+#five{
+    grid-area: five;
+}
+#six{
+    grid-area: six;
+}
+#seven{
+    grid-area: seven;
+}
+#eight{
+    grid-area: eight;
+}
+#nine{
+    grid-area: nine;
+}
+#zeroo{
+    grid-area: zeroo;
+}
+#equal{
+    grid-area: equal;
+}
+#plus{
+    grid-area: plus;
+}
+#minus{
+    grid-area: minus;
+}
+#mul{
+    grid-area: mul;
+}
+#divi{
+    grid-area: divi;
+}
+#dot{
+    grid-area: dot;
+}
+#clear{
+    grid-area: clear;
+}
+button{
+    border-radius: 25%;
+    border: 5px groove white;
+    text-align: center;
+    font-size: medium;
+}
+button:hover{
+    background-color: rgb(171, 237, 237);
+    border: 5px groove rgb(0, 238, 255);
+
+}

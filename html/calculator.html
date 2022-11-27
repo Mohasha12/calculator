@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="shortcut icon" href="../image/calculator.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/calculator.css">
+</head>
+<body>
+    <div id="calculator">
+        <input type="text" id="display" class="text" name="display" value=" ">
+        <button id="one" onclick="display(1)">1</button>
+        <button id="two" onclick="display(2)">2</button>
+        <button id="three" onclick="display(3)">3</button>
+        <button id="four" onclick="display(4)">4</button>
+        <button id="five" onclick="display(5)">5</button> 
+        <button id="six" onclick="display(6)">6</button>
+        <button id="seven" onclick="display(7)">7</button>
+        <button id="eight" onclick="display(8)">8</button>
+        <button id="nine" onclick="display(9)">9</button>
+        <button id="zeroo" onclick="display(0)">0</button>
+        <button id="equal" onclick="equal()">=</button>
+        <button id="plus" onclick="display('+')">+</button>
+        <button id="minus" onclick="display('-')">-</button>
+        <button id="mul" onclick="display('*')">*</button>
+        <button id="divi" onclick="display('/')">/</button>
+        <button id="dot" onclick="display('.')">.</button>
+        <button id="clear" onclick="document.querySelector('.text').value=' '">C</button>
+        <button id="del" onclick=" del()">Del</button>
+
+    </div>
+    <script src="../javascript/calculator.js"></script>
+</body>
+</html>
